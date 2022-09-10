@@ -1,6 +1,7 @@
 package net.thesadpie.randomthings;
 
 import net.fabricmc.api.ModInitializer;
+import net.thesadpie.randomthings.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class RandomThings implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 	}
 }
