@@ -32,7 +32,7 @@ public class ModBlocks {
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
-        return Registry.register(Registry.ITEM, new Identifier(RandomThings.MOD_ID),
+        return Registry.register(Registry.ITEM, new Identifier(RandomThings.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
     }
 
