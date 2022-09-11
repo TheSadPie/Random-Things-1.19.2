@@ -1,3 +1,10 @@
 {
-  "item.randomthings.raw_vibranium": "Raw Vibranium"
+  "item.randomthings.raw_vibranium": "Raw Vibranium",
+  "item.randomthings.vibranium": "Vibranium",
+
+  "block.randomthings.vibranium_block": "Block of Vibranium",
+  "block.randomthings.vibranium_ore": "Vibranium Ore",
+  "block.randomthings.deepslate_vibranium_ore": "Deepslate Vibranium Ore",
+
+  "itemGroup.randomthings": "Random Things"
 }
