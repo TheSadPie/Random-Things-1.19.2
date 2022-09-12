@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "vibranium",
+  "ingredient": {
+    "item": "randomthings:raw_vibranium"
+  },
+  "result": "randomthings:vibranium"
+}
